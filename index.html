@@ -17,30 +17,47 @@
             <a class="header__link header__link-active">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link">посмотреть лоты</a>
+            <a class="header__link underlined">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link">об аукционе</a>
+            <a class="header__link underlined">об аукционе</a>
           </li>
         </ul>
-        
       </nav>
       <a class="header__logo">
-          <img class="header__logo-image" src="/images/logo-black.svg" alt="Логотип оно тебе надо" />
-        </a>
-      <div class="adress">
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-          <br>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <br>
-          <address class="header__address">наб. Принсенграхт 263-265,<br> Амстердам</address>
-        </div>
+        <img
+          class="header__logo-image"
+          src="/images/logo-black.svg"
+          alt="Логотип оно тебе надо"
+        />
+      </a>
+      <div class="address">
+        <a class="underlined" href="tel:+99995555555">+9 999 555 5555</a>
+        <br />
+        <a class="underlined" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <br />
+        <address class="header__address">
+          наб. Принсенграхт 263-265,<br />
+          Амстердам
+        </address>
+      </div>
     </header>
     <main>
-      <section class="cover"></section>
+      <section class="cover">
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text">Оно </span>
+          <span class="aligned-text aligned-text_center">тебе </span>
+          <span class="aligned-text aligned-text_right">надо</span>
+        </h1>
+        <div class="cover__description">
+          <h2 class="cover__description-text">Аукцион    вещей,    в    которые    никто    не     верил</h2>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
+      </section>
       <section class="lots"></section>
       <section class="about"></section>
     </main>
-    <footer></footer>
+    <footer class="footer"></footer>
   </body>
 </html>
